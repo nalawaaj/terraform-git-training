@@ -3,3 +3,9 @@ variable "string_length" {
   type        = number
   default     = 10
 }
+
+variable "hello_msg" {
+   description = "Length of the random string"
+  type        = string
+  default     = "Hellow World"
+}

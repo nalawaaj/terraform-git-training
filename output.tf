@@ -8,3 +8,8 @@ output "random_suffix_length" {
   value       = length(random_string.suffix.result)
 }
 
+output "hello_msg" {
+   description = "Hellow World"
+    value       = var.hello_msg
+}
+

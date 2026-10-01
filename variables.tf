@@ -7,5 +7,5 @@ variable "string_length" {
 variable "hello_msg" {
   description = "Hellow world message"
   type        = string
-  default     = "Hellow World !!"
+  default     = "Hellow World !!!"
 }

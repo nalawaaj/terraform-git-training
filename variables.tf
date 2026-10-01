@@ -5,7 +5,7 @@ variable "string_length" {
 }
 
 variable "hello_msg" {
-   description = "Length of the random string"
+  description = "Hellow world message"
   type        = string
-  default     = "Hellow World"
+  default     = "Hellow World !!"
 }
